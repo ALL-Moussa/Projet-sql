@@ -1,0 +1,64 @@
+body{
+    background-color:ghostwhite;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.pg_title {
+    text-align: center;
+    background-color: #4831D4;
+    color: white;
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Extend the title to the full width of the page */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.req_input{
+    width: 50%;
+    height: 100px;
+}
+
+.req_submit{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+    background-color: #4831D4;
+    color: #90ee90;
+    border-style: hidden;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.req_submit:hover{
+    background-color: #90ee90;
+    color: #4831D4;
+}
+
+.req_form{
+    text-align: center;
+}
+
+.req_table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+    padding: 16px;
+}
